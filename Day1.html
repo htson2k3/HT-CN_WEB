@@ -978,7 +978,8 @@
 
         <!-- Bai 17 -->
         <h4>Bai 17</h4>
-        <form action="https://github.com/stevenduc0106/ThucHanhWeb_HTML_CSS" method="ge">
+        <p>a.</p>
+        <form action="https://github.com/stevenduc0106/ThucHanhWeb_HTML_CSS" method="get">
         
            <fieldset style="width: 650px;background-color: rgb(239, 181, 111);">
             <p style="text-align: center; font-size: 30px;"><b>Survey Form</b></p>
@@ -1081,7 +1082,83 @@
         </fieldset>
         
        </form>
-
+       <p>b.</p>
+       <form action="https://github.com/stevenduc0106/ThucHanhWeb_HTML_CSS" method="get">
+            <fieldset style="width: 650px;">
+                <label for="Browser">Browser:</label>
+                <select name="" id="" style="width: 200px;"></select>
+                <br>
+                <label for="UserName">UserName:</label>
+                <input type="text" id="UserName">
+                <br>
+                <label for="Encryption">Encryption:</label>
+                <select name="" id="Encryption">
+                    <option value="2048 (High Grade)">2048 (High Grade)</option>
+                </select>
+                <br>
+                <input type="range" name="" id="" aria-valuemin="0" aria-valuemax="100">
+                <br>
+                <input type="text" value="50">
+                <br>
+                <label for="Birth">Birth:</label>
+                <input type="date" name="" id="Birth"
+                     placeholder="dd-mm-yyyy" value=""
+                    >
+                    <br>
+                    <label for="favcolor">Select your favorite color:</label>
+                    <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+                    <br>
+                    <label for="BirthMY">Birth (month and year):</label>
+                    <input type="month" name="" id="BirthMY" value="---------   ----">
+                    <br>
+                    <label for="SelectW">Select a Week: </label>
+                    <input type="week" name="" id="SelectW" value="week --,----">
+                    <br>
+                    <label for="time">Time: </label>
+                    <input type="time" name="" id="time" value="--;-- --">
+                    <br>
+                    <label for="BirthDT">Birth (Date and Time):</label>
+                    <input type="datetime" name="" id="BirthDT">
+                    <br>
+                    <label for="Email">E-mail:</label>
+                    <input type="text" name="" id="Email">
+                    <br>
+                    <label for="Search">Search Google:</label>
+                    <input type="text" name="" id="Search">
+                    <br>
+                    <label for="telephone">Telephone:</label>
+                    <input type="text" id="telephone">
+                    <br>
+                    <label for="homepage">Add your Homepage:</label>
+                    <input type="text" name="" id="homepage">
+                    <br>
+                    <input type="button" value="Submit">
+                    <br>
+                    <p><b>Note:</b>The datalist tag is not support in Safari or IE9 (and earlier).</p>
+            </fieldset>
+            <!-- Bai 18 -->
+            <h4>Bai 18</h4>
+            <fieldset style="width: 400px;">
+            <form action="https://github.com/stevenduc0106/ThucHanhWeb_HTML_CSS" method="get">
+                <label for="browser">Please indicate your area of interest:</label>
+                <br>
+                <input list="browsers" name="browser" id="browser">
+                <datalist id="browsers">
+                  <option value="HTML">
+                  <option value="CSS">
+                  <option value="Javascrip">
+                  <option value="Python">
+                  <option value="React">
+                </datalist>
+                
+              </form>
+            </fieldset>
+            <!-- Bai 19 -->
+            <h4>Bai 19</h4>
+            <video controls>
+                <source src="../file/bunny.mp4">
+            </video>
+       </form>
     </div>
 </html>
 </body>
