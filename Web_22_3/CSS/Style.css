@@ -1,0 +1,63 @@
+body {
+    margin: 0 0 0 0;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#top-container {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+#top-left {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+#logo {
+    margin: 25px 0 0 25px;
+}
+
+.menu {
+    margin: 1em 0 0 1.5em;
+}
+
+.menu h3 {
+    color: #565e6c;
+}
+
+.menu :hover {
+    color: #00bdd6;
+}
+
+#top-right {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+#Search1 {
+    margin: 25px 0 0 210px;
+    width: 335px;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px;
+    background: #f3f4f6;
+}
+
+.top-image {
+    margin: 25px 15px 0 15px;
+}
+
+#center-container {
+    background-color: blue;
+}
+
+#bottom-container {
+    background-color: brown;
+}
