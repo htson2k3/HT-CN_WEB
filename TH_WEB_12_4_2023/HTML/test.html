@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.6.4.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#registerModal">
+        Đăng ký
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="registerModalLabel">Đăng ký tài khoản mới</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="username">Tên đăng nhập:</label>
+                  <input type="text" id="username" name="username" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="password">Mật khẩu:</label>
+                  <input type="password" id="password" name="password" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="confirm-password">Nhập lại mật khẩu:</label>
+                  <input type="password" id="confirm-password" name="confirm-password" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="full-name">Họ tên:</label>
+                  <input type="text" id="full-name" name="full-name" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="dob">Ngày sinh:</label>
+                  <input type="text" id="dob" name="dob" placeholder="dd/mm/yyyy" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="address">Địa chỉ:</label>
+                  <input type="text" id="address" name="address" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="phone">Số điện thoại:</label>
+                  <input type="tel" id="phone" name="phone" class="form-control">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+              <button type="button" class="btn btn-primary">Đăng ký</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+</body>
+
+</html>
